@@ -1,0 +1,4 @@
+<view>
+  <image src="./../../image/yindao.jpg"></image>
+  <button bindtap='star'>开始</button>
+</view>

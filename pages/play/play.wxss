@@ -1,0 +1,49 @@
+/* pages/play/play.wxss */
+
+.container .name {
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+
+.name view {
+  width: 80rpx;
+  height: 80rpx;
+  background: #ccc;
+  margin: 0 20rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 4rpx;
+}
+
+.ti {
+  margin-top:50rpx;
+  border: 1px solid #ccc;
+  padding: 50rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ti view {
+  text-align: center;
+  line-height: 100rpx;
+  margin: 10rpx;
+  width: 130rpx;
+  height: 100rpx;
+  background: #ccc;
+  border-radius: 4rpx;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot button {
+  width: 200rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,13 @@
+/* pages/win/win.wxss */
+.bg{
+    width:100%;
+    height:1165rpx;
+}
+open-data{
+    width:150rpx;
+    height:150rpx;
+    border:1px solid #ccc;
+    position: absolute;
+    top:500rpx;
+    left: 200rpx;
+}

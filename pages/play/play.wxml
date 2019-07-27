@@ -1,0 +1,16 @@
+<view wx:if="{{list.length==0}}">loading……</view>
+<view class='container' wx:else>
+  <audio src='{{list[nowindex].src}}' controls></audio>
+  <view class='name'>
+    <view id="{{index}}" bindtap='clearword' wx:for="{{list[nowindex].songname.length}}" wx:key="{{index}}">{{songn[index]}}</view>
+  </view>
+  <view class='ti'>
+    <view wx:for="{{list[nowindex].keyword}}" wx:key="{{index}}" bindtap='getword' id="{{index}}">
+      {{item}}
+    </view>
+  </view>
+  <view class='foot'>
+    <text>太难搞不定？邀请好友试试</text>
+    <button open-type="share">SOS</button>
+  </view>
+</view>
